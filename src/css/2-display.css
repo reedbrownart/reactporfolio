@@ -1,0 +1,220 @@
+#root {
+    height: 100vh;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+}
+
+.display {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 98vw;
+}
+
+/* LANDING STYLING */
+
+.landing {
+    height: 100vh;
+    min-height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+
+    text-align: center;
+}
+
+#landingTitle {
+    align-items: center;
+}
+
+#services {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    font-size: 36pt;
+}
+
+/* ABOUT ME STYLING */
+
+#about {
+    height: 100vh;
+    min-height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#aboutMeParagraph {
+    flex-direction: column;
+    border-radius: 5px;
+    color: white;
+}
+
+#aboutMeTitle {
+    height: 150px;
+}
+
+#resume {
+    font-size: 36pt;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.image {
+    height: 200px;
+    padding: 5px;
+}
+
+.copyFont {
+    font-size: 16pt;
+    font-style: normal;
+}
+
+/* SKILLS STYLING */
+
+#skills {
+    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+#skillBoard {
+    width: 60vw;
+}
+
+/* PROJECTS STYLING */
+
+#projects {
+    height: 100vh;
+    min-height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+#projectBoard {
+    width: 50vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding: 5px;
+}
+
+.projectImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.hiddenText {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background-color: rgb(67, 67, 151);
+    padding: 10px;
+}
+
+.projectImage:hover + .hiddenText {
+    display: block;
+    color: white;
+    font-size: 14pt;
+}
+
+.hiddenText:hover {
+    display: block;
+    color: white;
+    font-size: 14pt;
+}
+
+/* CONTACT STYLING */
+
+#contact {
+    height: 100vh;
+    min-height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#contactLinks {
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#messageBox {
+    height: 200px;
+}
+
+.contactImage {
+    padding: 10px;
+}
+
+#github {
+    height: 130px;
+    width: 130px;
+}
+
+#linkedIn {
+    height: 145px;
+    width: 145px;
+    padding-left: 30px;
+}
+
+#instagram {
+    height: 160px;
+    width: 160px;
+}

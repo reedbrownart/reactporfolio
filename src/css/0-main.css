@@ -1,0 +1,48 @@
+@import "./1-navBar.css";
+@import "./2-display.css";
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+    background-image: url("../assets/background3.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+p {
+    font-size: 1em;
+    width: 60vw;
+}
+
+h1 {
+    font-size: 5em;
+    color: white
+}
+
+h3 {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
